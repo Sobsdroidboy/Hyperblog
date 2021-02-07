@@ -3,7 +3,7 @@
 }
 
 body
-{
+{   
     background: #1e1f24;
     color: #333;
     text-align: center;
@@ -13,7 +13,7 @@ body
     padding: 0;
 }
 #container
-{
+{   height: fit-content;
     width: 70%;
     padding-top: 0;
     text-align: left;
@@ -62,4 +62,14 @@ body
     color: white;
     text-align: center;
     padding: 0.5em;
+}
+
+#par{
+    display: flex;
+
+}
+
+#bob{
+    margin: 0 auto;
+
 }
